@@ -355,12 +355,14 @@ div.block div img {
 div.block div img:hover {
     box-shadow: 3px 3px 6px black inset;
     filter: brightness(50%);
+    cursor: pointer;
 }
 
 div.block div p {
     color: antiquewhite;
     margin-top: 10px;
     text-shadow: 3px 3px 3px black;
+    text-align: justify;
 }
 
 hr.bottom-hr {

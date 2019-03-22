@@ -6,14 +6,17 @@
             display: none;
         }
         .menu ul {
-            display: flex;
+            display: block;
+            height: auto;
             width: 100%;
-            justify-content: center;
-            position: fixed;
             background-color: rgba(20, 36, 49, 0.7);
         }
         .menu ul li {
             float: none;
+            display: flex;
+        }
+        .menu ul li:first-child:hover {
+            transform: translate(0);
         }
         div.menu ul li:first-child,
         div.menu ul li:not(:first-child) {
@@ -62,6 +65,7 @@
             float: left;
             font-weight: bold;
             margin: 15px;
+            color: antiquewhite;
         }
         .hm {
             float: right;
@@ -73,7 +77,7 @@
             margin: 10px 15px;
         }
         ul.ne-menu {
-            display: none;
+            display: block;
         }
         ul.desktop {
             display: none;
