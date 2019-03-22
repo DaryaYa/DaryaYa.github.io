@@ -3,7 +3,8 @@
     src: url('fonts/exocet-blizzard-light.ttf');
 }
 
-@import "media.css" * {
+@import "media.css";
+* {
     margin: 0;
     padding: 0;
 }

@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="style-news.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
     <title>News</title>
 </head>
 
@@ -14,9 +16,9 @@
 
     <div class="menu">
 
-        <ul>
+        <ul class="desktop">
             <li class="link1">
-                <a href="index.htm"><img src="pics/bz.svg" alt="logo"> </a>
+                <a href="/"><img src="pics/bz.svg" alt="logo"> </a>
             </li>
             <li class="link2">
                 <label for="games">ИГРЫ</label>
@@ -131,6 +133,25 @@
                 <a href="#">Поддержка</a>
             </li>
         </ul>
+
+        <!--mobile menu -->
+
+        <div class="tablet">
+
+            <p>Menu</p>
+            <img src="img/hm.svg" class="hm">
+            <img src="img/hm-x.svg" class="xm">
+            <div class="clearboth"></div>
+            <ul class="ne-menu">
+                <li><a href="#" alt="игры">ИГРЫ</a></li>
+                <li><a href="#" alt=" ">МАГАЗИН</a></li>
+                <li><a href="news.htm" alt="Новости">НОВОСТИ</a></li>
+                <li><a href="#" alt="игры">КИБЕРСПОРТ</a></li>
+                <li><a href="regform.htm" alt="форма регистрации">РЕГИСТРАЦИЯ</a></li>
+                <li><a href="#" alt="тех поддержка">ПОДДЕРЖКА</a></li>
+            </ul>
+
+        </div>
     </div>
 
 
@@ -181,7 +202,7 @@
     <div class="nav-parent">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="index.htm">ДОМОЙ</a></li>
+                <li class="breadcrumb-item"><a href="/">ДОМОЙ</a></li>
                 <li class="breadcrumb-item"><a href="#">ИГРЫ</a></li>
                 <li class="breadcrumb-item active" aria-current="page">НОВОСТИ</li>
             </ol>
@@ -232,6 +253,9 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="function.js"></script>
 </body>
 
 </html>

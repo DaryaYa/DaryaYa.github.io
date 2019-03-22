@@ -127,6 +127,13 @@
         input.games:checked+div {
             display: none;
         }
+        .news-parent {
+            height: auto;
+        }
+        .news-blocks {
+            width: 40%;
+            height: auto;
+        }
     }
     
     @media all and (max-width: 1600px) and (min-width: 1199px) {
