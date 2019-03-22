@@ -61,17 +61,22 @@ input.games {
 }
 
 input.games::before {
-    content: '\1401';
+    content: ' ';
+    background-image: url('img/arrows1.svg');
+    background-size: 16px 16px;
+    height: 16px;
+    width: 16px;
     visibility: visible;
-    color: darkgray;
-    font-size: 1.2rem;
     display: inline-block;
-    transform: translate(5px, -4px);
+    transform: translate(0, -4px);
 }
 
 input.games:checked::before {
-    content: '\1403';
-    color: darkgrey;
+    content: ' ';
+    background-image: url('img/arrow.svg');
+    background-size: 16px 16px;
+    height: 16px;
+    width: 16px;
     visibility: visible;
 }
 
@@ -185,17 +190,22 @@ input.games-online {
 }
 
 input.games-online::before {
-    content: '\1401';
+    content: ' ';
+    background-image: url('img/arrows1.svg');
+    background-size: 16px 16px;
+    height: 16px;
+    width: 16px;
     visibility: visible;
-    color: darkgray;
-    font-size: 1.2rem;
     display: inline-block;
-    transform: translate(5px, -4px);
+    transform: translate(0, -4px);
 }
 
 input.games-online:checked::before {
-    content: '\1403';
-    color: darkgrey;
+    content: ' ';
+    background-image: url('img/arrow.svg');
+    background-size: 16px 16px;
+    height: 16px;
+    width: 16px;
     visibility: visible;
 }
 
@@ -243,6 +253,17 @@ input.games-online:checked+div {
     color: antiquewhite;
     margin: 0;
     padding-bottom: 5px;
+}
+
+
+/* mobile menu */
+
+.clearboth {
+    clear: both;
+}
+
+.tablet {
+    display: none;
 }
 
 

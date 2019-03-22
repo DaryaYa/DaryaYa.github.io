@@ -51,6 +51,33 @@
         div.carousel-item img.fourth {
             transform: translateX(-200px);
         }
+        /* mobile menu*/
+        .tablet {
+            display: block;
+        }
+        .tablet a {
+            display: block;
+        }
+        .tablet p {
+            float: left;
+            font-weight: bold;
+            margin: 15px;
+        }
+        .hm {
+            float: right;
+            margin: 10px 15px;
+        }
+        .xm {
+            display: none;
+            float: right;
+            margin: 10px 15px;
+        }
+        ul.ne-menu {
+            display: none;
+        }
+        ul.desktop {
+            display: none;
+        }
     }
     
     @media all and (max-width: 1200px) and (min-width: 949px) {
