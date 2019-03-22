@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="regform.css">
+    <title>regForm</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.htm" title="на главную">
+            <div class="logo">
+                <img src="pics/bz.svg" alt="logo"></a>
+        <p>ENTERTAINMENT</p>
+        </div>
+        <p>Создайте учетную запись Blizzard и начинайте приключения!</p>
+
+    </header>
+
+    <!-- registration form -->
+
+    <form method="POST" action="http://fe.it-academy.by/TestForm.php ">
+        <fieldset>
+            <legend>УЧЕТНАЯ ЗАПИСЬ</legend>
+            <label> Имя
+            <input type="text" name="name">
+        </label>
+            <label> Фамилия
+            <input type="text" name="surname">
+        </label> <br>
+            <label>Выбрать страну
+            <select class="country" size="1"> 
+            <option selected>Belarus</option>
+            <option value="1">Russia</option>
+            <option value="2">USA</option>
+            <option value="3">Ukraina</option>
+        </select> </label>
+            <br>
+            <span>Ваш пол</span>
+            <label>
+                <input type="radio" name="question-one" value="m"> M
+            </label>
+
+            <label>
+                <input type="radio" name="question-one" value="w" checked>
+                Ж
+            </label> <br>
+
+            <label for="email-field">Ваш e-mail</label>
+            <input type="text" name="login" id="email-field">
+            <br>
+            <label for="password-field">Ваш пароль</label>
+            <input type="password" name="password" id="password-field">
+            <br>
+
+            <label>
+                <input type="checkbox" name="subscribe" checked>
+                <em> Получать по E-mail новости и специальные предложения от наших партнеров. Актуальные новости, информация о
+                мероприятиях и скидках на товары и услуги наших партнеров.
+            </em></label>
+
+            <br>
+            <input type="submit" value="Создать учетную запись">
+            <input type="reset" value="Сбросить">
+            <p> Нажимая кнопку «Создать учетную запись (бесплатно)», я принимаю условия <a href="https://www.blizzard.com/ru-ru/legal/08b946df-660a-40e4-a072-1fbde65173b1/licenzionnoe-soglashenie-blizzard-s-konechnym-polzovatelem"> лицензионного соглашения</a>                </p>
+
+        </fieldset>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+body {
+    background: url(bg/monster2.jpg) top right no-repeat;
+    background-color: rgb(12, 10, 11);
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+
+header {
+    margin: 50px auto;
+    width: 80%;
+    text-align: center;
+    color: bisque;
+    font-size: 24px;
+}
+
+header img {
+    height: 110px;
+}
+
+.logo p {
+    font-size: 12px;
+    letter-spacing: 0.8em;
+    color: white;
+    margin-top: -15px;
+}
+
+
+/* registration form*/
+
+fieldset {
+    width: 40%;
+    margin: 50px auto;
+    background-color: #8349499d;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #412d2d;
+}
+
+legend {
+    text-align: center;
+}
+
+label {
+    line-height: 2em;
+}
+
+input,
+select {
+    border-radius: 0 15px;
+    padding: 0 10px;
+    background-color: bisque;
+    color: brown;
+    outline: none;
+}
+
+input[type="submit"] {
+    background-color: rgb(14, 77, 14);
+    color: bisque;
+    line-height: 25px;
+}
+
+input[type="reset"] {
+    background-color: rgb(173, 58, 16);
+    color: bisque;
+    line-height: 25px;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+a {
+    color: orange;
+}
+
+label>em {
+    font-size: 15px;
+}
