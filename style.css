@@ -267,6 +267,10 @@ input.games-online:checked+div {
     display: none;
 }
 
+div.tablet ul.ne-menu {
+    display: none;
+}
+
 
 /*carousel */
 
@@ -389,7 +393,7 @@ section div.video-block {
 
 section div.video-block p {
     color: whitesmoke;
-    text-align: center;
+    text-align: justify;
 }
 
 
