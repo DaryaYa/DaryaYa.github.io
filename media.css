@@ -42,9 +42,6 @@
         #carouselExampleIndicators div.carousel-caption p img {
             width: 200px;
         }
-        section.video {
-            display: block;
-        }
         hr.bottom-hr {
             display: none;
         }
@@ -52,7 +49,10 @@
             transform: translateX(-800px);
         }
         div.carousel-item img.fourth {
-            transform: translateX(-200px);
+            transform: translateX(-300px);
+        }
+        div.carousel-item img.third {
+            transform: translateX(-1000px);
         }
         /* mobile menu*/
         .tablet {
@@ -78,9 +78,35 @@
         }
         ul.ne-menu {
             display: block;
+            z-index: 1;
+            position: relative;
         }
         ul.desktop {
             display: none;
+        }
+        section.video {
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+        }
+        section div.video-block {
+            width: 100%;
+            margin-top: 10px;
+        }
+        .block div.game-article-left img {
+            margin: 10px 0;
+        }
+        .block div.game-article-right img {
+            margin: 10px 0;
+        }
+        .games div.block {
+            width: 100%;
+        }
+        div.news-parent {
+            width: 100%;
+        }
+        div.news {
+            width: 100%;
         }
     }
     
@@ -101,8 +127,9 @@
         }
         section div.video-block {
             display: flex;
-            width: 80%;
+            width: 100%;
             margin-top: 10px;
+            flex-direction: column;
         }
         div.carousel-item img {
             transform: translateX(-500px);

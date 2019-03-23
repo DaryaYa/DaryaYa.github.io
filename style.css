@@ -382,8 +382,8 @@ hr.bottom-hr {
 
 section.video {
     display: flex;
-    justify-content: space-between;
     width: 80%;
+    justify-content: space-between;
     margin: 0 auto;
 }
 

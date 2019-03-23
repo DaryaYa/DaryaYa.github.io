@@ -250,6 +250,10 @@ input.games-online:checked+div {
     display: none;
 }
 
+div.tablet ul.ne-menu {
+    display: none;
+}
+
 
 /* breadcrumbs*/
 
@@ -284,6 +288,7 @@ hr {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     font-family: 'Exocet', sans-serif;
 }
 
